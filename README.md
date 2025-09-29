@@ -3,7 +3,7 @@ this is a simplified implementation of the MIPS32 processor with reduced number 
 <br>
 to run the prcessor with a provided testbench use : <br>
 
-iverilog -o mips_test RISC_MIPS32.v testbench3.v
-vvp mips_test <br>
+1) iverilog -o mips_test RISC_MIPS32.v testbench3.v <br>
+2) vvp mips_test <br>
 
-make sure iverilog is installed in the environment path.
+make sure iverilog is installed in the environment path. 
